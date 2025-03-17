@@ -1,37 +1,38 @@
 /* تنظیمات عمومی */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('images/background.jpg'); /* پس‌زمینه شلوغ */
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    direction: rtl;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     color: white;
+    text-align: center;
     padding: 20px;
+    direction: rtl;
 }
 
 /* استایل محتوای اصلی */
 .container {
-    background: rgba(0, 0, 50, 0.7);
+    background: rgba(0, 0, 0, 0.7);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
     display: inline-block;
     width: 90%;
     max-width: 600px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
 }
 
-/* استایل لوگو */
-.logo img {
-    width: 150px;
-    border-radius: 50%;
+/* ایموجی خوش آمدگویی */
+.welcome-emoji {
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
-/* استایل توضیحات */
-.description h1 {
-    color: #00bcd4;
+/* استایل متن خوش آمدگویی */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffcc00;
 }
 
-.description p {
+p {
     font-size: 14px;
     margin-bottom: 15px;
 }
@@ -50,7 +51,7 @@ body {
 }
 
 .btn:hover {
-    background: #0056b3;
+    background: #ffcc00;
 }
 
 /* باکس‌های اطلاعات */
@@ -66,18 +67,20 @@ body {
     margin: 10px;
     padding: 15px;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 16px;
     min-width: 120px;
+    text-align: center;
 }
 
-/* بخش API */
-.api-section {
-    margin-top: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 15px;
-    border-radius: 10px;
+/* عدد آمار */
+.number {
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
 }
 
-.api-section h2 {
-    color: #00bcd4;
+/* متن پایین عدد */
+.label {
+    font-size: 14px;
 }
